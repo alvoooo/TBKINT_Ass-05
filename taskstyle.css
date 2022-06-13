@@ -1,5 +1,7 @@
 body{
-    margin: 20;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
     
 }
 .img1{
@@ -33,21 +35,25 @@ body{
     background-color: white;
 }
 *{box-sizing : border-box;}
-
+.image{
+    height: 150px;
+    width: auto;
+    padding: 1px;
+    
+}
+.image:hover{
+    opacity: 0.5;
+}
 .column{
     float: left;
     width: 32.4%;
-    height: auto;
-    padding: 5px;
+    height: 250px;
+    padding: 0px;
 }
 .row::after{
     content: "";
-    Clear: both;;
+    Clear: both;
     display: table;
-}
-div.row{
-    border: 1px solid darkgray;
-    display: inline block;
 }
 div.column{
     border: 1px solid darkgray;
@@ -61,10 +67,10 @@ div.desc{
     text-align: center;
 }
 .more{
-    padding: 1px;
+    padding: 5px;
     float: right;
     margin: 3px;
-    background-image: url(history.jpg);
+    background-color: lightcyan;
 }
 .moree{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
