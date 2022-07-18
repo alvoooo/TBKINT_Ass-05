@@ -11,75 +11,70 @@ body{
     width: 100%;
     height: 50%;
 }
+
+.navbar{
+    padding: 3px;
+    background-color: orangered;
+    height: 60px;
+}
 .subjects li{
     display: inline ;
 }
-.subjects{
-    padding: 3px;
-    background-color: orangered;
-    height: 50px;
-
-}
-.button{
-    font-family: 'Gill Sans', 'Gill Sans MT', 
-    Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1cm;
-    color: blue;
+.menu{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: .9cm;
+    color: black;
     padding: 5;
 }
-.button:link{
+.menu:link{
     text-decoration: none;
     color: black;
 }
-.button:hover{
-    background-color: white;
+.menu:hover{
+    color: white;
 }
-*{box-sizing : border-box;}
-.image{
-    height: 150px;
+.my-container{
+    height: auto;
     width: auto;
-    padding: 1px;
-    
+    display: inline-block;
+    border: 1px solid darkgray;
+}
+.my-col{
+    height: auto;
+    width: 32.4%;
+    border: 1px solid darkgray;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.particle{
+    text-align: left;
+    padding: 10px;
+}
+.more{
+    background-color: orangered;
+    float: right;
+    text-align: right;
+    border: 1px solid darkgray;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 3px;
+    font-weight: bolder;
+
+}
+.more:hover{
+    background-color: black;
+    color: orangered;
+}
+.image{
+    width: 100%;
+    height: 200px;
 }
 .image:hover{
     opacity: 0.5;
 }
-.column{
-    float: left;
-    width: 32.4%;
-    height: 250px;
-    padding: 0px;
-}
-.row::after{
-    content: "";
-    Clear: both;
-    display: table;
-}
-div.column{
-    border: 1px solid darkgray;
-    display: block;
-}
-div.desc{
-    padding: 15px;
-    text-align: left;
-}
-.footer{
+footer,p{
+    padding-top: 15px;
     text-align: center;
-}
-.more{
-    padding: 5px;
-    float: right;
-    margin: 3px;
-    background-color: lightcyan;
-}
-.moree{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
-}
-.moree:link{
-    background-color: white;
-}
-.moree:hover{
-    background-color: black;
-    color: orangered;
+    
 }

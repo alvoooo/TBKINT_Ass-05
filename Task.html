@@ -1,50 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Highschool Subjects</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="taskstyle.css" class="img1">
-        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <link rel="stylesheet" href="taskstyle.css">
+        <title>Highschool Subjects</title>   
     </head>
     <body>
         <h1>Subjects undertaken at a highschool level</h1>
         <p>In highschool, students read alot of subjects. In this article our main 
             focus will be on three subjects namely IT, Biology and History</p>
-        <img src="Classroom.png" alt="desk">
-       <nav>
+        <img src="Classroom.png" alt="desk" class="img1">
+       <nav class="navbar">
            <ul class="subjects">
-               <li><a class="button" href="index.html">Home         </a></li>
-               <li><a class="button" href="it.html">IT          </a></li>
-               <li><a class="button" href="biology.html">Biology            </a></li>
-               <li><a class="button" href="history.html">History            </a></li>
-               <li><a class="button" href="contact.html">Contact            </a></li>
+               <li><a class="menu" href="#">Home</a></li>
+               <li><a class="menu" href="#">IT</a></li>
+               <li><a class="menu" href="#">Biology</a></li>
+               <li><a class="menu" href="#">History</a></li>
+               <li><a class="menu" href="#">Contact</a></li>
 
            </ul>
        </nav>
-       <div class="row">
-           <div class="column">
-               <img class="image" src="ITPic.jpg" alt="IT Picture" style="width:100%">
-               <div class="desc">Information Technology<br>
-                My overview</div>
-                <nav class="more"><a class="moree" href="www.google.com">More</a></nav>
-           </div>
-           <div class="column">
-               <img class="image" src="biology.jpg" alt="Biology Picture" style="width:100%">
-               <div class="desc">Biology<br>
-            My overview</div>
-            <nav class="more"><a class="moree" href="www.google.com">More</a></nav>
+       <div class="container my-container">
+        <div class="row my-row">
+            <div class="col my-col">
+                <img class="image" src="ITPic.jpg" alt="IT Picture">
+            <h2>IT</h2>
+            <p class="particle">My overview</p>
+           <div class="more">More</div>
             </div>
-           <div class="column">
-               <img class="image" src="history.jpg" alt="History Picture" style="width:100%">
-               <div class="desc">History<br>
-                My overview</div>
-                <nav class="more"><a class="moree" href="www.google.com">More</a></nav>
-                
-           </div>
+            <div class="col my-col">
+                <img class="image" src="biology.jpg" alt="Biology Picture">
+            <h2>Biology</h2>
+            <p class="particle">My overview</p>
+            <div class="more">More</div>
+            </div>
+            <div class="col my-col">
+                <img class="image" src="history.jpg" alt="History Picture">
+            <h2>History</h2>
+            <p class="particle">My overview</p>
+            <div class="more">More</div>
+            </div>
+        </div>
        </div>
+       
+       <footer>
+        <p>@ tibika development. all rights reserved. proudly created by <a href="http://www.tibika.co.ke/" target="blank" >Tibika Dev</a> <br>
+            last updated: 13th June 2022</p>
+       </footer>
 
-       <p class="footer">@ tibika development. all rights reserved. proudly created by <a href="http://www.tibika.co.ke/" target="blank" >Tibika Dev</a> <br>
-    last updated: 13th June 2022</p>
-
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
